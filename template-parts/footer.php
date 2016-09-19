@@ -7,7 +7,7 @@
 	</p>
 	<ul class="no-list-style footer-links">
 	   <li>
-		  <a class="button" href="contact">Contact</a>
+		  <a class="button" href="/contact">Contact</a>
 	   </li>
 	   <li>
 		  <a href="https://www.pinterest.com/NHVillageSuites/" target="_blank" title="Follow New Haven Village Suites on Pinterest">

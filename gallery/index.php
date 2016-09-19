@@ -1,35 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php include('../template-parts/head.php') ?>
     <title>Gallery | New Haven Village Suites</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="../apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="../favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="../favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="../android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="../manifest.json">
-    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#1d528f">
     <meta name="description" content="Take a look at all New Haven Village Suites as to offer. Call us today at 203-777-5337 to find out what this weekly hotel New Haven CT has to offer.">
     <meta name="keywords" content="Weekly,Hotel,New Haven,CT">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
-    <link href="../css/jquery-ui.min.css" rel="stylesheet">
-    <link href="../css/app.css" rel="stylesheet">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,45 +24,10 @@
     <![endif]-->
     </head>
 
-<body>
+<body class="gallery-page">
     
-    <div class="wrapper">   
-    <header>
-        <a href="../index.html" class="logo">
-            <img itemprop="logo" src="../images/new-haven-living-suites-logo.png" alt="New Haven Village Suites">
-        </a>
-        <p class="logo-subheader">Hotel ~ Apartments</p>
-        <ul class="no-list-style nav">
-            <li><a href="../apartment-suites">Apartment Suites »</a>
-                <ul class="no-list-style">
-                    <li><a href="../apartment-suites/studio-suite">Studio Suites</a></li>
-                    <li><a href="../apartment-suites/one-bedroom-suite">One Bedroom Suites</a></li>
-                    <li><a href="../apartment-suites/two-bedroom-suite">Two Bedroom Suites</a></li>
-                    <li><a href="../apartment-suites/ada-suite">ADA Suites</a></li>
-                </ul>
-            </li>
-            <li><a href="../services-amenities">Services &amp; Amenities</a></li>
-            <li><a href="../discover">Discover New Haven »</a>
-                <ul class="no-list-style">
-                    <li><a href="../discover/explore-new-haven">Explore New Haven</a></li>
-                    <li><a href="../discover/neighborhood">Neighborhood</a></li>
-                    <li><a href="../discover/directions">Directions</a></li>
-                </ul>
-            </li>
-                        <li><a href="../events">Events</a></li>
-            <li><a href="../gallery">Gallery</a></li>
-            <li><a href="https://gc.synxis.com/rez.aspx?Hotel=44858&amp;Chain=1854" class="highlight">Book Now</a></li>
-        </ul>
-        <a class="button yale-button" href="../visiting-yale">
-            <img src="../images/icons/yale-icon.png" alt="Yale University">
-            Visiting Yale?
-        </a>
-        <div class="sidebar-blurb">
-            <h3>Tranquil. Spacious. Convenient.</h3>
-            <p>New Haven Village Suites is an extended stay hotel, designed for people looking for flexibility and ease of living. Our community offers the conveniences of a hotel with the comforts of home. <span class="text-expand">Whether you are traveling for business or pleasure, a day, a week, a month or a year, we will provide you with everything you need for a pleasant stay.</span></p><img style='vertical-align:middle;width: 45px;height: 45px;' src="../../images/cat_one_paw.png"><p style='vertical-align:middle; display:inline;'> Pet Friendly Hotel</p>
-        </div>
-    </header>
-
+    <div class="wrapper">
+         <?php include('../template-parts/header.php'); ?>
             <main class="one-col">
         
     
@@ -154,61 +96,10 @@
     </div>
 
     </main>
-
-    <footer>
-        <p class="copyright" itemscope="" itemtype="https://schema.org/Hotel">
-            © 2016 <span itemprop="name">New Haven Village Suites</span>
-            <span itemprop="address">3 Long Wharf Drive, New Haven, Connecticut 06511</span>  |
-            <span itemprop="telephone">203-777-5337</span>  |
-            Fax: <span itemprop="faxNumber">203-777-2808</span>
-        </p>
-        <ul class="no-list-style footer-links">
-            <li>
-                <a class="button" href="../contact">Contact</a>
-            </li>
-            <li>
-                <a href="https://www.pinterest.com/NHVillageSuites/" target="_blank" title="Follow New Haven Village Suites on Pinterest">
-                    <img src="../images/icons/pn.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/NewHavenVillageSuites/" target="_blank" title="Follow New Haven Village Suites on Facebook">
-                    <img src="../images/icons/fb.png">
-                </a>
-            </li>
-            <li>
-                <a href="http://www.tripadvisor.com/Hotel_Review-g33851-d85908-Reviews-New_Haven_Village_Suites-New_Haven_Connecticut.html" target="_blank" title="Partnered with TripAdvisor">
-                    <img src="../images/icons/trip-advisor-logo.png">
-                </a>
-            </li>
-            <li>
-                <a href="http://www.aaa.com/index.html" target="_blank" title="Partnered with AAA">
-                    <img src="../images/icons/aaa-logo.png">
-                </a>
-            </li>
-            <li>
-                <a href="http://www.paramounthotelgroup.com/" target="_blank" title="Paramount Hotel Group">
-                    <img src="../images/icons/paramount-hotel-logo.png">
-                </a>
-            </li>
-        </ul>
-    </footer>
-    
-    
-
-<script type="text/javascript">
-  document.write=function() {};
-  document.writeln=function() {};
-</script>
-
-<script async src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="../js/all.js"></script>
-        <script type="text/javascript" src="../js/jquery.cycle2.min.js"></script>
+    <?php include('../template-parts/footer.php'); ?>
+    <script type="text/javascript" src="../js/jquery.cycle2.min.js"></script>
     <script type="text/javascript" src="../js/jquery.cycle2.carousel.js"></script>
     <script type="text/javascript">
-        $( ".calendar-field" ).datepicker();
-        
     jQuery(document).ready(function($){
         
         var slideshows = $('.cycle-slideshow').on('cycle-next cycle-prev', function(e, opts) {

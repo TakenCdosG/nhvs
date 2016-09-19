@@ -1762,6 +1762,9 @@ header .menu-button {
 }
 
 @media screen and (max-width: 767px) {
+	.gallery-page .one-col{
+		width:100%;
+	}
 	header .nav ul {
 		left:-100% !important;
 	}
