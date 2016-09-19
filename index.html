@@ -74,6 +74,7 @@
             <a href="/" class="logo">
             <img itemprop="logo" src="images/new-haven-living-suites-logo.png" alt="New Haven Village Suites">
             </a>
+            <div class="menu-button"><span class="fa fa-bars"></span></div>
             <p class="logo-subheader">Hotel ~ Apartments</p>
             <ul class="no-list-style nav">
                <li>
@@ -188,6 +189,14 @@
          <script type="text/javascript" src="js/jquery-ui.min.js"></script>
          <script type="text/javascript" src="js/all.js"></script>
          <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+         <script type="text/javascript">
+            $('.menu-button').click(function(){
+               $(this).toggleClass('active');
+               $('.nav').toggleClass('active');
+            });
+
+            $( ".calendar-field" ).datepicker();
+         </script>
          <script type="text/javascript">
             $( document ).ready(function() {
                 $( ".calendar-field" ).datepicker();

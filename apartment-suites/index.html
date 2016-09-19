@@ -53,7 +53,8 @@
             <a href="../index.html" class="logo">
             <img itemprop="logo" src="../images/new-haven-living-suites-logo.png" alt="New Haven Village Suites">
             </a>
-            <p class="logo-subheader">Hotel ~ Apartments</p>
+            <div class="menu-button"><span class="fa fa-bars"></span></div>
+
             <ul class="no-list-style nav">
                <li>
                   <a href="../apartment-suites">Apartment Suites »</a>
@@ -77,6 +78,7 @@
                <li><a href="../gallery">Gallery</a></li>
                <li><a href="https://gc.synxis.com/rez.aspx?Hotel=44858&amp;Chain=1854" class="highlight">Book Now</a></li>
             </ul>
+            <p class="logo-subheader">Hotel ~ Apartments</p>
             <a class="button yale-button" href="../visiting-yale">
             <img src="../images/icons/yale-icon.png" alt="Yale University">
             Visiting Yale?
@@ -170,6 +172,16 @@
                </li>
             </ul>
          </footer>
+         <script type="text/javascript" src="http://newhavenvillagesuites.com/js/jquery-1.11.3.min.js"></script>
+         <script type="text/javascript" src="http://newhavenvillagesuites.com/js/jquery-ui.min.js"></script>
+         <script type="text/javascript">
+            $('.menu-button').click(function(){
+               $(this).toggleClass('active');
+               $('.nav').toggleClass('active');
+            });
+
+            $( ".calendar-field" ).datepicker();
+         </script>
          <script type="text/javascript">
             document.write=function() {};
             document.writeln=function() {};
