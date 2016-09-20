@@ -14,7 +14,8 @@
 			 <li><a href="/apartment-suites/ada-suite">ADA Suites</a></li>
 		  </ul>
 	   </li>
-	   <li><a href="/services-amenities">Services &amp; Amenities</a></li>
+	   <li><a href="/services-amenities">Services &amp; Amenities</a></li>	   
+	   <li><a href="/renovation-roadmap">Renovation Roadmap</a></li>
 	   <li>
 		  <a href="/discover">Discover New Haven »</a>
 		  <ul class="no-list-style">
@@ -25,7 +26,6 @@
 	   </li>
 	   <li><a href="/events">Events</a></li>
 	   <li><a href="/gallery">Gallery</a></li>
-	   <li><a href="/renovation-roadmap">Renovation Roadmap</a></li>
 	   <li><a href="https://gc.synxis.com/rez.aspx?Hotel=44858&amp;Chain=1854" class="highlight">Book Now</a></li>
 	</ul>
 	<a class="button yale-button" href="visiting-yale">

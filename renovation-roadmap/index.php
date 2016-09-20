@@ -125,7 +125,7 @@
             </form>
         </div>
     </section>
-    <?php include('../../template-parts/footer.php') ?>
+    <?php include('../template-parts/footer.php') ?>
 
 </div></body></html>
 
