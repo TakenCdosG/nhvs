@@ -1770,7 +1770,7 @@ header .menu-button {
     }
 
     .right-sidebar {
-        padding: 0 2% 100px 2%;
+        padding: 0 2% 4px 2%;
     }
 
     footer ul {
@@ -1817,6 +1817,16 @@ header .menu-button {
     }
     header .menu-button {
         display: block;
+    }
+
+    footer {
+        z-index: auto;
+        position: relative;
+        height: auto;
+        float: left;
+    }
+    .wrapper {
+        margin-bottom: 0;
     }
 
 }
