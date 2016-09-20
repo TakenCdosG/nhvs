@@ -1172,8 +1172,6 @@ body:after {
 }
 
 .gallery > div {
-    overflow: auto;
-    height: 210px;
     margin-top: 5px;
     padding: 1%
 }
