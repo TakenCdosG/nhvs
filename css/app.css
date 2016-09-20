@@ -1762,8 +1762,11 @@ header .menu-button {
 	.gallery-page .one-col{
 		width:100%;
 	}
+	.gallery-page main{
+		overflow: visible;
+	}
 	header .nav ul {
-		left:-100% !important;
+		display: none !important;
 	}
 
     .two-col, .button-cta, .right-sidebar {
