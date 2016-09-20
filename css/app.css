@@ -1766,7 +1766,7 @@ header .menu-button {
 		width:100%;
 	}
 	header .nav ul {
-		left:-100% !important;
+		display: none !important;
 	}
 
     .two-col, .button-cta, .right-sidebar {
