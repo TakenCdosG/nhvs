@@ -1764,6 +1764,9 @@ header .menu-button {
 	.gallery-page .one-col{
 		width:100%;
 	}
+	.gallery-page main{
+		overflow: visible;
+	}
 	header .nav ul {
 		display: none !important;
 	}
