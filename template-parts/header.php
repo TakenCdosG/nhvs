@@ -25,6 +25,7 @@
 	   </li>
 	   <li><a href="/events">Events</a></li>
 	   <li><a href="/gallery">Gallery</a></li>
+	   <li><a href="/renovation-roadmap">Renovation Roadmap</a></li>
 	   <li><a href="https://gc.synxis.com/rez.aspx?Hotel=44858&amp;Chain=1854" class="highlight">Book Now</a></li>
 	</ul>
 	<a class="button yale-button" href="visiting-yale">

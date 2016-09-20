@@ -1824,4 +1824,39 @@ header .menu-button {
     }
 
 }
-
+/* STYLES FOR NAVIGATION ROADMAP PAGE */
+.season-bar{
+    background-color: #00407d;
+    height: 55px;
+    line-height: 55px;
+    margin-left: -20px;
+}
+.season-bar h2{
+    color: #9ba81a;
+    margin-left: 20px;
+}
+.season-bar-content{
+    background-color: #edebe9;
+    margin: 15px 0;
+    padding: 1px 20px;
+}
+.season-bar-content h4{
+    color:#00407d;
+    padding-top: 10px;
+}
+.rrmap-list, .rrmap-list2{
+    list-style:disc;
+    margin-left: 20px;
+}
+.rrmap-list2{
+    margin-bottom: 10px;
+}
+.rrmap-list li span{
+    position: relative;
+    left: -.5em;
+    font-weight: 600;
+}
+.rrmap-list p{
+    margin-top: 0px;
+    margin-left: -15px;
+}
