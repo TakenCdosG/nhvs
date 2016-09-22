@@ -32,6 +32,9 @@
 	<img src="/images/icons/yale-icon.png" alt="Yale University">
 	Visiting Yale?
 	</a>
+	<a class="button book-now-button" href="https://gc.synxis.com/rez.aspx?Hotel=44858&Chain=1854&arrive=&depart=">
+		Book Now
+	</a>
 	<div class="sidebar-blurb">
 	   <h3>Tranquil. Spacious. Convenient.</h3>
 	   <p>New Haven Village Suites is an extended stay hotel, designed for people looking for flexibility and ease of living. Our community offers the conveniences of a hotel with the comforts of home. <span class="text-expand">Whether you are traveling for business or pleasure, a day, a week, a month or a year, we will provide you with everything you need for a pleasant stay.</span></p><img style='vertical-align:middle;width: 45px;height: 45px;' src="/images/cat_one_paw.png"><p style='vertical-align:middle; display:inline;'> Pet Friendly Hotel</p>

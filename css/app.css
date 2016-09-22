@@ -683,9 +683,13 @@ ul.col-list {
     margin: 0.5em 1em 0.5em 0
 }
 
-.yale-button {
+.yale-button, .book-now-button {
     margin: 18px auto;
     padding: 5px 10px
+}
+
+.book-now-button {
+    display: none;
 }
 
 .yale-button img {
@@ -1794,7 +1798,7 @@ header .menu-button {
     header .logo-subheader{
         width: 250px;
         margin-left: 5%;
-        margin-top: 2%; 
+        margin-top: 2%;
     }
 
     header .nav li a {
@@ -1833,6 +1837,13 @@ header .menu-button {
     }
     .wrapper {
         margin-bottom: 0;
+    }
+
+    .book-now-button {
+        display: block;
+    }
+    .yale-button{
+        display: none;
     }
 
 }
