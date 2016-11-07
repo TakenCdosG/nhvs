@@ -1,6 +1,7 @@
 # ignore OS generated files
 ehthumbs.db
 Thumbs.db
+.DS_Store
 
 # ignore Editor files
 *.sublime-project
@@ -30,3 +31,7 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+
+#ignore backup folders
+12-04/
+backup/

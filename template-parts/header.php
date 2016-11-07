@@ -28,7 +28,7 @@
 	   <li><a href="/gallery">Gallery</a></li>
 	   <li><a href="https://gc.synxis.com/rez.aspx?Hotel=44858&amp;Chain=1854" class="highlight">Book Now</a></li>
 	</ul>
-	<a class="button yale-button" href="visiting-yale">
+	<a class="button yale-button" href="/visiting-yale">
 	<img src="/images/icons/yale-icon.png" alt="Yale University">
 	Visiting Yale?
 	</a>
