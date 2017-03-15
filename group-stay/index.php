@@ -57,7 +57,7 @@
                <label for="name">Name</label>
         <input placeholder="Full Name" maxlength="100" name="name" type="text" id="name" required>
         <label for="email">Email</label>
-        <input placeholder="Email Address" maxlength="100" name="email" type="email" id="email" required><span class="error">* <?php echo $emailErr;?></span>
+        <input placeholder="Email Address" maxlength="100" name="email" type="email" id="email" required>
         <label for="phone">Phone (optional)</label>
         <input placeholder="Phone Number (optional)" maxlength="20" name="phone" type="tel" id="phone">
         <label for="organization">Group or Organization (optional)</label>
