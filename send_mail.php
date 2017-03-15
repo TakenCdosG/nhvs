@@ -20,7 +20,7 @@ if (strpos($email, 'accessdomain.com') !== false) {
     $is_root_from = TRUE;
 }
 
-if(!$is_root_from && !empty($email) && !empty($name) && !empty($message)){
+if(!$is_root_from && !empty($email) && !empty($name)){
 	$correo = new PHPMailer();
 	// SetFrom
 	$correo->SetFrom($email, $name);
