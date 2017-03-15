@@ -1,6 +1,6 @@
 <footer>
 	<p class="copyright" itemscope="" itemtype="https://schema.org/Hotel">
-	   © 2016 <span itemprop="name">New Haven Village Suites</span>
+	   © <?php echo date('Y'); ?> <span itemprop="name">New Haven Village Suites</span>
 	   <span itemprop="address">3 Long Wharf Drive, New Haven, Connecticut 06511</span>  |
 	   <span itemprop="telephone">203-777-5337</span>  |
 	   Fax: <span itemprop="faxNumber">203-777-2808</span>

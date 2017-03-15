@@ -25,7 +25,7 @@ if(!$correo->Send()) {
   echo "Oops. Something went wrong. Please try again later. " . $correo->ErrorInfo;
 } else {
   //echo "Mensaje enviado con exito.";
-	header('Location: thank-you/index.html');
+	header('Location: thank-you/');
 }
 
 ?>

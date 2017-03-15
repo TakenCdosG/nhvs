@@ -20,7 +20,7 @@ $correo->AddAddress($_POST['email'],$_POST['name']);
 $checkin = $_POST['checkin'];
 $checkout = $_POST['checkout'];
 $room_type = $_POST['room_type'];
-$package = $_POST['package'];
+$package = ""; //$package = $_POST['package'];
 $notes = $_POST['notes'];
 
 $correo->Subject = $_POST['name']." Has contacted us - Live With Us";
@@ -32,7 +32,7 @@ if(!$correo->Send()) {
   echo "Oops. Something went wrong. Please try again later. " . $correo->ErrorInfo;
 } else {
   //echo "Mensaje enviado con exito.";
-	header('Location: ../thank-you/index.html');
+	header('Location: ../thank-you/');
 }
 
 ?>

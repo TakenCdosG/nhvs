@@ -54,6 +54,7 @@
 			<main class="two-col">
             
     <h1>Thank You for Contacting Us</h1>
+    <h3 style="font-weight:300"> We have received your inquiry and our team will be in touch shortly to assist you. If you need immediate assistance, please do not hesitate to call 203-777-5337.</h3>
 
     </main>
     <section class="right-sidebar">

@@ -1883,3 +1883,82 @@ header .menu-button {
     margin-top: 0px;
     margin-left: -15px;
 }
+
+/*
+* Live With Us
+*/
+.table-live-with-us{
+
+}
+
+.table-live-with-us thead{
+
+}
+
+.table-live-with-us thead tr{
+
+}
+
+.table-live-with-us thead tr th{
+    color: #fff;
+    padding: 7px 15px;
+    font-family: "Oswald", "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    border: solid 1px #fff;
+}
+
+.table-live-with-us thead tr th.head-dark-blue{
+    background: #01336a;
+}
+
+.table-live-with-us thead tr th.head-blue{
+    background: #184681;
+}
+
+.table-live-with-us thead tr th.head-light-blue{
+    background: #2667aa;
+}
+
+.table-live-with-us tbody tr td{
+    background: #edecea;
+    border: solid 1px #fff;
+    padding: 9px 10px;
+    color: #01336a;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 200px;
+}
+
+.table-live-with-us tbody tr td.body-grey-dark{
+    background: #ded9d5;
+}
+
+.table-live-with-us tbody tr td .check-icon{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.table-live-with-us tbody tr td .check-icon::after {
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: auto;
+    margin-top: -13px;
+    position: absolute;
+    cursor: pointer;
+    content: '\2713';
+    text-align: center;
+    line-height: 30px;
+    color: #708f40;
+    font-size: 22px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    margin-left: -5px;
+}
+
+

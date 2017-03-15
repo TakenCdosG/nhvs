@@ -1,1 +1,5 @@
 DirectoryIndex index.htm index.html index.php
+RewriteEngine On
+RewriteBase /
+Redirect 301 /special-packages http://newhavenvillagesuites.com/live-with-us/
+Redirect 301 /special-packages/ http://newhavenvillagesuites.com/live-with-us/

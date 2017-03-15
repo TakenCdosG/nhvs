@@ -14,6 +14,7 @@
 			 <li><a href="/apartment-suites/ada-suite">ADA Suites</a></li>
 		  </ul>
 	   </li>
+	   <li><a href="/live-with-us">Extended Stay Living</a></li>
 	   <li><a href="/services-amenities">Services &amp; Amenities</a></li>	   
 	   <li><a href="/renovation-roadmap">Renovation Roadmap</a></li>
 	   <li>

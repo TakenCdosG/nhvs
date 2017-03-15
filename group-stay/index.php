@@ -65,10 +65,10 @@
         
         <div class="form-two-col" style="padding-right:.375em;">
             <label for="checkin">Checkin Date</label>
-            <input class="calendar-field" placeholder="Check In" name="checkin" type="date" id="checkin" required>
+            <input class="calendar-field" placeholder="Check In" name="checkin" type="text" id="checkin" required>
         </div><div class="form-two-col" style="padding-left:.375em;">
             <label for="checkout">Checkout Date</label>
-            <input class="calendar-field" placeholder="Check Out" name="checkout" type="date" id="checkout" required>
+            <input class="calendar-field" placeholder="Check Out" name="checkout" type="text" id="checkout" required>
         </div>
         
 

@@ -60,29 +60,250 @@
         <?php include('../template-parts/header.php') ?>
          <main class="two-col">
             <h1>Live With Us</h1>
-            <div class="special-packages-wrapper">
-               <div class="gold-package">
-                  <h2>Gold Package</h2>
-                  <h5>Studio: $2,850 per month<br> 2 Bedroom / 2 Bathroom: $3,600 per month</h5>
-                  <ul class="list amenities-list">
-                     <li style="background-image:url('../images/icons/amenities/gold/meal.png')">Light Dinner <em>(Monday - Wednesday)</em></li>
-                     <li style="background-image:url('../images/icons/amenities/gold/laundry.png')">Housekeeping <em>(once per week)</em></li>
-                     <li style="background-image:url('../images/icons/amenities/gold/groceries.png')">Valet Grocery Services</li>
-                  </ul>
-                  <a class="button" target="_blank" href="../special-packages">View More</a>
+            <h2 class="bar-heading">TURNKEY LIVING IS SMART, FLEXIBLE LIVING.</h2>
+            <p>Experience turnkey living at New Haven Village Suites. All of your typical apartment expenses are all-inclusive in your stay. Enjoy your living experience in New Haven without the hassle of a lease. We offer 30+ day extended stay options! There is no application fee, no security deposit and no utility hook ups needed. And the best part is, you can stay as long as you want.</p><br/>
+            <div class="row">
+               <div class="col-md-12">
+                  <table class="table table-bordered table-live-with-us">
+                     <thead>
+                       <tr>
+                          <th class="head-dark-blue">
+                             SERVICES & CONVENIENCES
+                          </th>
+                          <th class="head-blue">
+                            NEW HAVEN VILLAGE SUITES
+                          </th>
+                          <th class="head-light-blue">
+                            APARTMENT LIVING
+                          </th>
+                       </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td class="body-grey-dark">
+                              WiFi Included
+                           </td>
+                           <td>
+                              <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Utilities Included
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Housekeeping
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Flexible Lease Terms
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              30 Day Lease Term Options
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                             Kitchens with Housewares
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Furnished Bedrooms with Linens Living and Dining Rooms with HD 
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              TV and Pull Out Couch
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Cable with HBO Included
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Shuttle Service 
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Daily Hot Breakfast 
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Dinner - 3 nights a week 
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Parking Included
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Overnight Surveillance
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="body-grey-dark">
+                              Application Fees
+                           </td>
+                           <td>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td class="body-grey-dark">
+                              Security Deposit
+                           </td>
+                           <td>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td class="body-grey-dark">
+                              Amenity Fees
+                           </td>
+                           <td>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td class="body-grey-dark">
+                              24-Hour Emergency Maintenance
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td class="body-grey-dark">
+                              24-Hour Concierge
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td class="body-grey-dark">
+                              Pet Friendly
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td class="body-grey-dark">
+                              Package Acceptance
+                           </td>
+                           <td>
+                             <span class="check-icon"></span>
+                           </td>
+                           <td>
+                            <span class="check-icon"></span>
+                           </td>
+                        </tr>
+
+                     </tbody>
+                  </table>
                </div>
-               <div class="silver-package">
-                  <h2>Silver Package</h2>
-                  <h5>Studio: $2,070 per month<br> 2 Bedroom / 2 Bathroom: $2,820 per month</h5>
-                  <ul class="list amenities-list">
-                     <li style="background-image:url('../images/icons/amenities/silver/wifi.png')">All Utilities Including Cable and WiFi</li>
-                     <li style="background-image:url('../images/icons/amenities/silver/shuttle.png')">Shuttle <em>(within a 3-mile radius)</em></li>
-                     <li style="background-image:url('../images/icons/amenities/silver/parking.png')">Parking <em>(1 car)</em></li>
-                  </ul>
-                  <a class="button" target="_blank" href="../special-packages">View More</a>
-               </div>
-            </div>
-            <p><small><em>Note: This monthly pricing with amenity structure is only offered to residents staying 12 months or longer. <a href="../contact">Contact us</a> for pricing for short term stays.</em></small></p>
+            </div>        
             <form method="POST" action="send_mail.php" accept-charset="UTF-8" class="contact-form">
                <input name="_token" type="hidden" value="meW0XrEY1RZcLkJjJeb2Lten5ffyVldefVihPeDP">
                <label for="name">Name</label>
@@ -93,11 +314,11 @@
                <input placeholder="Phone Number (optional)" maxlength="20" name="phone" type="tel" id="phone">
                <div class="form-two-col" style="padding-right:.375em;">
                   <label for="checkin">Checkin Date</label>
-                  <input type="date" name="checkin" class="calendar-field" placeholder="Check In" id="" required>
+                  <input type="text" name="checkin" class="calendar-field" placeholder="Check In" id="" required>
                </div>
                <div class="form-two-col" style="padding-left:.375em;">
                   <label for="checkout">Checkout Date</label>
-                  <input type="date" name="checkout" class="calendar-field" placeholder="Check Out" id="" required>
+                  <input type="text" name="checkout" class="calendar-field" placeholder="Check Out" id="" required>
                </div>
                <label for="room_type">Type of Room</label>
                <select name="room_type" id="room_type" required>
@@ -108,12 +329,14 @@
                   <option value="Two Bedroom Suite">Two Bedroom Suite</option>
                   <option value="ADA Studio Suite">ADA Studio Suite</option>
                </select>
-               <label for="package">Special Package <em>(optional)</em></label>
-               <select id="package" name="package" required>
-                  <option value="">Select Special Package</option>
-                  <option value="gold">Gold Package</option>
-                  <option value="silver">Silver Package</option>
-               </select>
+               <!--
+                 <label for="package">Special Package <em>(optional)</em></label>
+                 <select id="package" name="package" required>
+                    <option value="">Select Special Package</option>
+                    <option value="gold">Gold Package</option>
+                    <option value="silver">Silver Package</option>
+                 </select>
+               -->
                <label for="notes">Other notes <em>(optional)</em></label>
                <textarea id="notes" placeholder="Message" name="notes" cols="50" rows="10"></textarea>
                <input class="button" type="submit" value="Get A Quote">
