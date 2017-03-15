@@ -16,22 +16,30 @@ $room_type = isset($_POST['room_type'])?$_POST['room_type']:'';
 $organization = isset($_POST['organization'])?$_POST['organization']:'';
 $notes = isset($_POST['notes'])?$_POST['notes']:'';
 
-// Subject
 
-$is_root_from = FALSE;
-if (strpos($email, 'accessdomain.com') !== false) {
-    $is_root_from = TRUE;
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  $emailErr = "Invalid email format";
 }
+
+
+// $is_root_from = FALSE;
+// if (strpos($email, 'accessdomain.com') !== false) {
+//     $is_root_from = TRUE;
+// }
 
 if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !empty($checkout) && !empty($num_room) && !empty($room_type)){
 	$correo = new PHPMailer();
-	$correo->SetFrom($email, $name); // SetFrom
-	$correo->AddReplyTo($email, $name); // AddReplyTo
-	$correo->AddAddress($to, $to_label); // AddAddress
+	// SetFrom
+	$correo->SetFrom($email, $name);
+	// Add_Reply_To
+	$correo->AddReplyTo($email, $name);
+	// Add_Address
+	$correo->AddAddress($to, $to_label);
 	$correo->AddAddress($email, $name);
+	// Subject
 	$correo->Subject = $_POST['name']." Has contacted us - Group Stay";
+	// Email_Body
 	$correo->MsgHTML("<h3>".$name."</h3> <p><b>Phone:</b> ".$_POST['phone']."</p><p> <b>Organization:</b> ".$organization."</p> <p> <b>Check In:</b> ".$checkin."</p> <p><b>Check Out:</b> ".$checkout."</p> <p><b>Room Number:</b> ".$num_room."</p> <p><b>Room Type:</b> ".$room_type."</p> <p><b>Notes:</b> ".$notes."</p>");
-
 	//Actions
 	if(!$correo->Send()) {
 	  echo "Oops. Something went wrong. Please try again later. " . $correo->ErrorInfo;
@@ -39,7 +47,5 @@ if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !emp
 	  //echo "Mensaje enviado con exito.";
 		header('Location: ../thank-you/');
 	}
-
 }
-
 ?>
