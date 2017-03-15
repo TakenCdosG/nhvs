@@ -2,7 +2,7 @@
 //PHPMailer for Contact us
 require_once('phpmailer/class.phpmailer.php');
 
-$to = "esteban@akendos.com";
+$to = "FSmith@paramounthotelgroup.com";
 $to_label = "Village-Suites";
 $email = isset($_POST['email'])?$_POST['email']:'';
 $name = isset($_POST['name'])?$_POST['name']:'';
