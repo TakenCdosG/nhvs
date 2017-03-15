@@ -16,7 +16,7 @@ $room_type = isset($_POST['room_type'])?$_POST['room_type']:'';
 $organization = isset($_POST['organization'])?$_POST['organization']:'';
 $notes = isset($_POST['notes'])?$_POST['notes']:'';
 
-$correo->Subject = $_POST['name']." Has contacted us - Group Stay"; // Subject
+// Subject
 
 $is_root_from = FALSE;
 if (strpos($email, 'accessdomain.com') !== false) {
@@ -29,6 +29,7 @@ if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !emp
 	$correo->AddReplyTo($email, $name); // AddReplyTo
 	$correo->AddAddress($to, $to_label); // AddAddress
 	$correo->AddAddress($email, $name);
+	$correo->Subject = $_POST['name']." Has contacted us - Group Stay";
 	$correo->MsgHTML("<h3>".$name."</h3> <p><b>Phone:</b> ".$_POST['phone']."</p><p> <b>Organization:</b> ".$organization."</p> <p> <b>Check In:</b> ".$checkin."</p> <p><b>Check Out:</b> ".$checkout."</p> <p><b>Room Number:</b> ".$num_room."</p> <p><b>Room Type:</b> ".$room_type."</p> <p><b>Notes:</b> ".$notes."</p>");
 
 	//Actions
