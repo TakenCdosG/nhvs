@@ -6,10 +6,10 @@ $to = "esteban@akendos.com";
 $to_label = "Village-Suites";
 $email = isset($_POST['email'])?$_POST['email']:'';
 $name = isset($_POST['name'])?$_POST['name']:'';
-$message = isset($_POST['message'])?$_POST['message']:'';
+// $message = isset($_POST['message'])?$_POST['message']:'';
 
-// Optional Fields
-$phone = isset($_POST['phone'])?$_POST['phone']:'';
+// // Optional Fields
+// $phone = isset($_POST['phone'])?$_POST['phone']:'';
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format";
@@ -32,7 +32,7 @@ if(!$is_root_from && !empty($email) && !empty($name)){
 	// Subject
 	$correo->Subject = $_POST['name']." Has contacted us";
 	// Email_Body
-	$correo->MsgHTML("<h3>".$_POST['name']."</h3> <p><b>Phone:</b> ".$_POST['phone']."</p> <p><b>Message: </b>".$_POST['message']."</p>");
+	$correo->MsgHTML("<h3>".$_POST['name']."</h3> ");
 	//Actions
 	if(!$correo->Send()) {
 	  echo "Oops. Something went wrong. Please try again later. " . $correo->ErrorInfo;
