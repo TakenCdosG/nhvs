@@ -1,6 +1,6 @@
 <?php
 //PHPMailer for Contact us
-require_once('../phpmailer/class.phpmailer.php');
+require_once('phpmailer/class.phpmailer.php');
 
 $to = "esteban@akendos.com";
 $to_label = "Village-Suites";
