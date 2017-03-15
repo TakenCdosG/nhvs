@@ -1,5 +1,4 @@
 <?php
-
 //PHPMailer for Group Stay
 require_once('../phpmailer/class.phpmailer.php');
 
@@ -16,16 +15,14 @@ $room_type = isset($_POST['room_type'])?$_POST['room_type']:'';
 $organization = isset($_POST['organization'])?$_POST['organization']:'';
 $notes = isset($_POST['notes'])?$_POST['notes']:'';
 
-
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format";
 }
 
-
-// $is_root_from = FALSE;
-// if (strpos($email, 'accessdomain.com') !== false) {
-//     $is_root_from = TRUE;
-// }
+$is_root_from = FALSE;
+if (strpos($email, 'accessdomain.com') !== false) {
+    $is_root_from = TRUE;
+}
 
 if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !empty($checkout) && !empty($num_room) && !empty($room_type)){
 	$correo = new PHPMailer();
