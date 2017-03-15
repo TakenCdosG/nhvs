@@ -20,7 +20,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-        <script type='application/ld+json'> 
+        <script type='application/ld+json'>
     {
         "@context": "http://www.schema.org",
         "@type": "Local Business",
@@ -46,8 +46,8 @@
 </head>
 
 <body>
-    
-    <div class="wrapper"> 	
+
+    <div class="wrapper">
     <?php include('../template-parts/header.php') ?>
 
 			<main class="two-col">
@@ -57,12 +57,12 @@
                <label for="name">Name</label>
         <input placeholder="Full Name" maxlength="100" name="name" type="text" id="name" required>
         <label for="email">Email</label>
-        <input placeholder="Email Address" maxlength="100" name="email" type="email" id="email" required>
+        <input placeholder="Email Address" maxlength="100" name="email" type="email" id="email" required><span class="error">* <?php echo $emailErr;?></span>
         <label for="phone">Phone (optional)</label>
         <input placeholder="Phone Number (optional)" maxlength="20" name="phone" type="tel" id="phone">
         <label for="organization">Group or Organization (optional)</label>
         <input placeholder="Name of Group or Organization" name="organization" type="text" id="organization">
-        
+
         <div class="form-two-col" style="padding-right:.375em;">
             <label for="checkin">Checkin Date</label>
             <input class="calendar-field" placeholder="Check In" name="checkin" type="text" id="checkin" required>
@@ -70,7 +70,7 @@
             <label for="checkout">Checkout Date</label>
             <input class="calendar-field" placeholder="Check Out" name="checkout" type="text" id="checkout" required>
         </div>
-        
+
 
         <label for="num_room">Number of Rooms</label>
         <select name="num_room" id="num_room" required><option value="" selected="selected" disabled="disabled">Select Number of Rooms</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15plus">15+ (Specify Below)</option></select>
