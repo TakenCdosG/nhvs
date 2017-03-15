@@ -15,6 +15,7 @@ $room_type = isset($_POST['room_type'])?$_POST['room_type']:'';
 $organization = isset($_POST['organization'])?$_POST['organization']:'';
 $notes = isset($_POST['notes'])?$_POST['notes']:'';
 
+$emailErr = "";
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format";
 }
@@ -24,7 +25,7 @@ if (strpos($email, 'accessdomain.com') !== false) {
     $is_root_from = TRUE;
 }
 
-if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !empty($checkout) && !empty($num_room) && !empty($room_type)){
+if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !empty($checkout) && !empty($num_room) && !empty($room_type) && empty($emailErr)){
 	$correo = new PHPMailer();
 	// SetFrom
 	$correo->SetFrom($email, $name);
@@ -44,5 +45,7 @@ if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !emp
 	  //echo "Mensaje enviado con exito.";
 		header('Location: ../thank-you/');
 	}
+} else {
+	echo "Oops. Something went wrong. Please try again later. " . $correo->ErrorInfo;
 }
 ?>

@@ -11,6 +11,7 @@ $message = isset($_POST['message'])?$_POST['message']:'';
 // Optional Fields
 $phone = isset($_POST['phone'])?$_POST['phone']:'';
 
+$emailErr = "";
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format";
 }
@@ -20,7 +21,7 @@ if (strpos($email, 'accessdomain.com') !== false) {
     $is_root_from = TRUE;
 }
 
-if(!$is_root_from && !empty($email) && !empty($name)){
+if(!$is_root_from && !empty($email) && !empty($name) && empty($emailErr)){
 	$correo = new PHPMailer();
 	// SetFrom
 	$correo->SetFrom($email, $name);
@@ -40,5 +41,7 @@ if(!$is_root_from && !empty($email) && !empty($name)){
 	  //echo "Mensaje enviado con exito.";
 		header('Location: ../thank-you/');
 	}
+} else {
+	echo "Oops. Something went wrong. Please try again later. " . $correo->ErrorInfo;
 }
 ?>
