@@ -2,7 +2,7 @@
 //PHPMailer for Live With US
 require_once('../phpmailer/class.phpmailer.php');
 
-$correo = new PHPMailer(); 
+$correo = new PHPMailer();
 
 //SetFrom
 $correo->SetFrom($_POST['email'], $_POST['name']);
@@ -11,7 +11,7 @@ $correo->SetFrom($_POST['email'], $_POST['name']);
 $correo->AddReplyTo($_POST['email'],$_POST['name']);
 
 //AddAddress
-$correo->AddAddress("FSmith@paramounthotelgroup.com","Village-Suites");
+$correo->AddAddress("esteban@akendos.com","Village-Suites");
 
 $correo->AddAddress($_POST['email'],$_POST['name']);
 

@@ -3,7 +3,7 @@
 //PHPMailer for Group Stay
 require_once('../phpmailer/class.phpmailer.php');
 
-$to = "FSmith@paramounthotelgroup.com";
+$to = "esteban@akendos.com";
 $to_label = "Village-Suites";
 $email = isset($_POST['email'])?$_POST['email']:'';
 $name = isset($_POST['name'])?$_POST['name']:'';
@@ -24,7 +24,7 @@ if (strpos($email, 'accessdomain.com') !== false) {
 }
 
 if(!$is_root_from && !empty($email) && !empty($name) && !empty($checkin) && !empty($checkout) && !empty($num_room) && !empty($room_type)){
-	$correo = new PHPMailer(); 
+	$correo = new PHPMailer();
 	$correo->SetFrom($email, $name); // SetFrom
 	$correo->AddReplyTo($email, $name); // AddReplyTo
 	$correo->AddAddress($to, $to_label); // AddAddress
